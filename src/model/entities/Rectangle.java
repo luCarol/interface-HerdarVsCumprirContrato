@@ -11,7 +11,7 @@ import java.awt.Color;
  *
  * @author Luana
  */
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
     
     private Double width;
     private Double height;

@@ -5,28 +5,12 @@
  */
 package model.entities;
 
-import java.awt.Color;
-
 /**
  *
  * @author Luana
  */
-public abstract class Shape {
-    
-    private Color color;
+public interface Shape {
 
-    public Shape(Color color) {
-        this.color = color;
-    }
+    double area();
 
-    public Color getColor() {
-        return color;
-    }
-
-    public void setColor(Color color) {
-        this.color = color;
-    }
-    
-    public abstract double area();
-    
 }

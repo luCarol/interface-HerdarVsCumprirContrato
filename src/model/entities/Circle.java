@@ -11,7 +11,7 @@ import java.awt.Color;
  *
  * @author Luana
  */
-public class Circle extends Shape {
+public class Circle extends AbstractShape {
     
     private Double radius;
 
